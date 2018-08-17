@@ -1,0 +1,112 @@
+$mainColor:#e06310;
+
+body{
+	background: url(https://nsbpictures.com/wp-content/uploads/2018/08/bokeh-night-light-overlays-4.jpg) 0px 0px repeat fixed;
+}
+
+/*Top Notification*/
+div#notification{
+	background: $mainColor;
+}
+
+/*Top Banner*/
+div.header{
+	height: auto;
+	figure{
+    margin: 0 auto;
+    img{
+    	width: 100%;
+    }
+	}
+}
+
+/*MENU TOP*/
+.menu ul li:hover a, .menu ul li .selected{
+	background: $mainColor;
+}
+/*MENU TOP Mobile*/
+i.fas {
+    font-size: 30px;
+    color: $mainColor;
+}
+.groupmenu_m ul li a{
+    color: $mainColor;
+
+}
+@media screen and (max-width: 700px){
+	.menu ul li a {
+		background: $mainColor;
+	}	
+}
+/*LEFT SOCIAL*/
+.groupfbye{
+	background: $mainColor;
+}
+
+/*RIGHT SIGNUP*/
+#subbar{
+	background: $mainColor;
+}
+
+/*---------------HOME*/
+
+/*Service title*/
+.homeservices_title{
+	a{
+		color: $mainColor;
+
+	}
+}
+
+/*ABOUT TITLE*/
+.content {
+	h2{
+		color: $mainColor;
+	}
+}
+
+/*---------------SERVICES*/
+.servicestitle{
+	color: $mainColor;
+}
+
+.servicesimg img{
+	border: 2px solid $mainColor;
+	width: 250px;
+	height: 250px;
+}
+
+/*---------------GALLERY*/
+.gallerytitle{
+	background: $mainColor;
+}
+.gallerytitle2{
+	color: $mainColor;
+}
+#gallery img{
+	width: 280px;
+	height: 170px;
+}
+#moreBtn
+/*---------------PROMOTIONS*/
+/*---------------PREVIEWS*/
+.promoimg{
+	img{
+		width: 100%;
+		max-width: 650px;
+		/*border: 2px solid $mainColor;*/
+	}
+}
+.print{
+	background: $mainColor;
+}
+/*---------------PREVIEWS, CONTACT*/
+#moreBtn,#bSend{
+	background: $mainColor;
+}
+
+
+/*---------------FOOTER*/
+.home_r_title{
+	color: $mainColor;
+}
