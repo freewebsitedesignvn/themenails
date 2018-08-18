@@ -1,0 +1,122 @@
+
+
+html{
+	font-size: 100%;
+	height: 100%;
+	@include tablet-width-pro-h() {
+		font-size: 100%;
+	}
+	@include tablet-pro() {
+		font-size: 100%;
+	}
+	@include tablet() {
+		font-size: 100%;
+	}
+	@include mobile() {
+		font-size: 100%;
+	}
+	@include mobile-xs() {
+		font-size: 100%;
+	}
+}
+body{
+	font-family: $font-family-1;
+	font-weight: 300;
+	height: 100%;
+	line-height: inherit;
+	@include tablet() {
+		font-size: $font-size-mobile-xs;
+	}
+	@include mobile() {
+		font-size: $font-size-mobile-xs;
+	}
+}
+// article{
+// 	overflow: hidden;
+// }
+// blockquote{
+// 	font-size: $font-size-xs
+// }
+// label{
+// 	font-weight: 400;
+// }
+// table{
+// 	width: 100%;
+// }
+// p{
+// 	margin: 0;
+// }
+// .content li > ul, .content li > ol{
+// 	margin-left: 20px;
+// }
+// ul{
+// 	list-style: none;
+// }
+// .icon-mail{
+// 	font-size: 110px;
+// 	color: $color-white;
+// }
+// .font--default{
+// 	font-family: $font-family-1;
+// }
+// .font--title{
+// 	font-family: $font-family-2;
+// }
+// .out-of-stock__label, .product-block__price{
+// 	font-family: $font-family-1;
+// }
+// .button, .content-title, .title{
+// 	 font-family: $font-family-1;
+// }
+// h1,h2,h3,h4,h5,h6 {
+// 	margin: 0;
+// 	 font-family: $font-family-2;
+// 	 line-height: 150%;
+// 	 font-weight: 700;
+// }
+// h6{
+// 	font-size: $font-size-xs;
+// 	@include tablet() {
+// 		font-size: $font-size-mobile-xs;
+// 	}
+// }
+// h5{
+// 	font-size: $font-size-xs;
+// 	@include tablet() {
+// 		font-size: $font-size-mobile-xs;
+// 	}
+// }
+// h4{
+// 	font-size: $font-size-sm;
+// 	@include tablet() {
+// 		font-size: $font-size-mobile-sm;
+// 	}
+// }
+// h3{
+// 	font-size: $font-size-md;
+// 	@include tablet() {
+// 		font-size: $font-size-mobile-md;
+// 	}
+// }
+// h2{
+// 	font-size: $font-size-lg;
+// 	@include tablet() {
+// 		font-size: $font-size-mobile-lg;
+// 	}
+// }
+// h1{
+// 	margin-bottom: 10px;
+// 	font-size: $font-size-xl;
+// 	font-weight: 400;
+// 	@include tablet() {
+// 		font-size: $font-size-mobile-xl;
+// 	}
+// }
+// a{
+// 	color: $color-default;
+// 	&:hover{
+// 		color: $color-default;
+// 		text-decoration: none;
+// 	}
+// }
+
