@@ -1,0 +1,36 @@
+.print {
+    display: inline-block;
+    margin: 20px 0;
+}
+.grouppromo{
+    .homeul{
+        list-style: none;
+        li{
+            font-size: 18pt;
+            margin-bottom: 20px;
+            padding-left: 35px;
+            font-weight: bold;
+            font-family: 'PT Sans Narrow', sans-serif;
+            color: #1c70b0;
+            background: url(../images/tick.png) 0px 4px no-repeat
+        }
+    }
+}
+.row{
+    margin: 0;
+}
+.groupfbye{
+    width: auto;
+}
+.social a{
+    margin-left:2px;
+}
+#gallery img{
+    width: 190px;
+}
+.groupcontact a{
+    margin-left: 3px;
+}
+#egiftlibrary img{
+    width: 208px;
+}
