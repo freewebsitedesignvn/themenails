@@ -1,0 +1,272 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10pt;
+}
+
+#wrapper {
+    text-align: center;
+    max-width: 900px;
+    width: 95%;
+    background: #f1f1f1;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+#logo {
+    margin-top: 20px;
+}
+
+#logo img {
+    border: none;
+}
+
+#menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background: #79b8b6;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 12pt;
+    color: #fff;
+    margin-right: 20px;
+}
+
+#menu a:hover,
+#menu a.selected {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+#footer {
+    border-top: 1px dashed #ccc;
+    margin-top: 30px;
+    color: #999;
+    font-size: 9pt;
+}
+
+.note_egift {
+    color: #ff0000;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+/*Egift*/
+
+.card_m {
+    max-width: 650px;
+    width: 98%;
+    border: 1px dotted #999;
+    background: #fff;
+    margin: 0px auto;
+}
+
+#egifttopnote {
+    font-weight: bold;
+    color: #000000;
+}
+
+.egiftrow {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#egiftlibrary {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#egiftlibrary img {
+    margin: 5px;
+    border: 2px solid #e5e5e5;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#egiftlibrary img:hover {
+    border: 2px solid #79b8b6;
+}
+
+.egiftbox {
+    float: left;
+    width: 208px;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#cardimg img {
+    width: 100%;
+}
+
+#egiftmessagegroup {
+    font-family: Arial;
+    font-size: 10pt;
+    line-height: 140%;
+    overflow: hidden;
+    background: #fff;
+    color: #000;
+}
+
+.calendar {
+    position: relative;
+    border: 1px solid #e5e5e5;
+    background: #ffffff;
+}
+
+.searchbutton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+    background: -moz-linear-gradient( center top, #f9f9f9 5%, #e9e9e9 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9');
+    background-color: #f9f9f9;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    color: #666666;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #ffffff;
+    cursor: pointer;
+}
+
+.searchbutton:hover {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+    background: -moz-linear-gradient( center top, #e9e9e9 5%, #f9f9f9 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9');
+    background-color: #e9e9e9;
+}
+
+.searchbutton:active {
+    position: relative;
+    top: 1px;
+}
+
+.textbox {
+    width: 150px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid #cccccc;
+}
+
+#productcart {
+    text-align: center;
+    width: 350px;
+    border: 1px dashed #e5e5e5;
+    margin-bottom: 30px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+#productcart img {
+    border: none;
+}
+
+#egifttabbar {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.egifttab {
+    float: left;
+    height: 35px;
+    margin-right: 10px;
+    width: 200px;
+    font-size: 12pt;
+    color: #fff;
+    background: #f2c781;
+    text-align: center;
+    font-weight: bold;
+    line-height: 32px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+}
+
+.egifttab a {
+    height: 35px;
+    width: 200px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.egifttab a:hover {
+    background: #666;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+}
+
+.giftselect {
+    background: #666;
+}
+
+#dragguide {
+    width: 195;
+    height: 19px;
+    background: url(../images/dragguide.jpg) 0px 0px no-repeat;
+    display: none;
+}
+
+.gifttextarea {
+    max-width: 500px;
+    width: 100%;
+    height: 80px;
+}
+
+
+/*Egift*/
+
+
+/*Cart*/
+
+#cart {}
+
+#cart a {
+    text-decoration: none;
+    color: #d78841;
+}
+
+#cart a:hover {
+    color: #000000;
+}
+
+#cart table {
+    width: 900px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#cart td {
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+
+/*Cart*/
+
+#egiftlibrary img {
+    width: 208px;
+    box-sizing: border-box
+}

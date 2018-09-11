@@ -25,8 +25,8 @@
                             <div id="groupnoti">
                                 <div id="noti">
                                     <div id="closenoti">[X] Close</div>
-                                    <img src="images/Promotions/promotion8.jpg" alt="promotion8"/>
-                                    <img src="images/Promotions/promotion11.jpg" alt="promotion11"/>
+                                    <img src="images/promotions/7.jpg" alt="promotion7"/>
+                                    <img src="images/promotions/6.jpg" alt="promotion6"/>
                                 </div>
                             </div>
         <?php endif ?>
@@ -63,28 +63,7 @@
             </div> -->
         </div>
         <?php include_once 'inc_menu.php'; ?>
-        <div class="groupmain">
-            <div class="header_m">
-                <div class="groupmenu_m">
-                    <ul>
-                        <li id=""><a href="tel:5406593707"><i class="fas fa-phone"></i><br><span>Call</span></a></li>                
-                        <li id=""><a href="services"><i class="fas fa-shopping-cart"></i><br><span>Services</span></a></li>
-                        <li id=""><a name="direction" onclick="myNavFunc();"><i class="fas fa-map-marker-alt"></i><br><span>Direction</span></a></li>
-                        <li id=""><a href="sign-up"><i class="fas fa-comments"></i><br><span>Sign Up</span></a></li>
-                        <li id=""><a href="egift"><i class="fas fa-gift"></i><br><span>Egift</span></a></li>
-                        <li id=""><a href="promotions"><i class="fas fa-diagnoses"></i><br><span>Promotion</span></a></li>
-                        <!-- <li id="call_m"><a href="tel:5406593707"><span>Call</span></a></li>                
-                        <li id="services_m"><a href="services"><span>Services</span></a></li>
-                        <li id="direction_m"><a name="direction" onclick="myNavFunc();"><span>Direction</span></a></li>
-                        <li id="subbar_m"><a href="sign-up"><span>Sign Up</span></a></li>
-                        <li id="e-gift"><a href="egift"><span>Egift</span></a></li>
-                        <li id="promotion"><a href="promotions"><span>Promotion</span></a></li> -->
-                    </ul>
-                    <!--<ul>
-	                    
-                    </ul>-->
-                </div>
-            </div>
+        
             
 
             
@@ -96,17 +75,7 @@
             } else {
                 include_once 'home.php';
             }
-            
-            // switch ($page) {
-            //     case 'value':
-            //         # code...
-            //         break;
-            //     case 'home':
-                    
-            //     default:
-            //         include_once 'home.php';
-            //         break;
-            // }
+        
             
 
              ?>

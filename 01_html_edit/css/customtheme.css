@@ -1,0 +1,85 @@
+body {
+  background: url(img src="images/bgr.jpg" alt="#") 0px 0px repeat fixed; }
+
+/*Top Notification*/
+div#notification {
+  background: #fd6f7c; }
+
+/*Top Banner*/
+div.header {
+  height: auto; }
+  div.header figure {
+    margin: 0 auto; }
+    div.header figure img {
+      width: 100%; }
+
+/*MENU TOP*/
+.menu ul li:hover a, .menu ul li .selected {
+  background: #fd6f7c; }
+
+/*MENU TOP Mobile*/
+i.fas {
+  font-size: 30px;
+  color: #fd6f7c; }
+
+.groupmenu_m ul li a {
+  color: #fd6f7c; }
+
+@media screen and (max-width: 700px) {
+  .menu ul li a {
+    background: #fd6f7c; } }
+/*LEFT SOCIAL*/
+.groupfbye {
+  background: #fd6f7c; }
+
+/*RIGHT SIGNUP*/
+#subbar {
+  background: #fd6f7c; }
+
+/*---------------HOME*/
+/*Service title*/
+.homeservices_title a {
+  color: #fd6f7c; }
+
+/*ABOUT TITLE*/
+.content h2 {
+  color: #fd6f7c; }
+
+/*---------------SERVICES*/
+.servicestitle {
+  color: #fd6f7c; }
+
+.servicesimg img {
+  border: 2px solid #fd6f7c;
+  width: 250px;
+  height: 250px; }
+
+/*---------------GALLERY*/
+.gallerytitle {
+  background: #fd6f7c; }
+
+.gallerytitle2 {
+  color: #fd6f7c; }
+
+#gallery img {
+  width: 280px;
+  height: 170px; }
+
+#moreBtn
+.promoimg img {
+  width: 100%;
+  max-width: 650px;
+  /*border: 2px solid $mainColor;*/ }
+
+.print {
+  background: #fd6f7c; }
+
+/*---------------PREVIEWS, CONTACT*/
+#moreBtn, #bSend {
+  background: #fd6f7c; }
+
+/*---------------FOOTER*/
+.home_r_title {
+  color: #fd6f7c; }
+
+/*# sourceMappingURL=customtheme.css.map */
