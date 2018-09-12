@@ -1,0 +1,77 @@
+.print {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.grouppromo {
+    .homeul {
+        list-style: none;
+        li {
+            font-size: 18pt;
+            margin-bottom: 20px;
+            padding-left: 35px;
+            font-weight: bold;
+            font-family: 'PT Sans Narrow', sans-serif;
+            color: #1c70b0;
+            background: url(../images/tick.png) 0px 4px no-repeat
+        }
+    }
+}
+
+.row {
+    margin: 0;
+}
+
+.groupfbye {
+    width: auto;
+}
+
+.main {
+    box-sizing: content-box;
+}
+
+.servicesimg img {
+    max-width: 224px;
+}
+
+.servicesimg .servicesimg2 {
+    max-width: 134px;
+}
+
+#egiftlibrary img {
+    width: 208px;
+}
+
+.homeservicesimg img {
+    width: 286px;
+}
+
+.aboutimg {
+    img {
+        width: 254px;
+    }
+    .aboutimg2 {
+        width: 154px
+    }
+    .aboutimg3 {
+        width: 169px;
+    }
+}
+
+#bback {
+    background: url(../images/slider/prev.png)0px 0px no-repeat;
+    &:hover {
+        background: url(../images/slider/prevhover.png)0px 0px no-repeat;
+    }
+}
+
+#bnext {
+    background: url(../images/slider/next.png)0px 0px no-repeat;
+    &:hover {
+        background: url(../images/slider/nexthover.png)0px 0px no-repeat;
+    }
+}
+
+#gallery img {
+    width: 277px;
+}
