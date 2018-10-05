@@ -1,0 +1,111 @@
+@mixin transform-center-x($x:-50%,$y:0){
+	transform: translate($x,$y);
+	-ms-transform: translate($x,$y);
+	-moz-transform: translate($x,$y);
+	-o-transform: translate($x,$y);
+	-webkit-transform: translate($x,$y);
+}
+@mixin transform-center-y($x:0,$y:-50%){
+	transform: translate($x,$y);
+	-ms-transform: translate($x,$y);
+	-moz-transform: translate($x,$y);
+	-o-transform: translate($x,$y);
+	-webkit-transform: translate($x,$y);
+}
+@mixin transform($position,$x,$y){
+	@if $position == translate {
+		transform: translate($x,$y);
+		-ms-transform: translate($x,$y);
+		-moz-transform: translate($x,$y);
+		-o-transform: translate($x,$y);
+		-webkit-transform: translate($x,$y);
+	}@else if $position == rotate {
+		transform: rotate($x);
+		-ms-transform: rotate($x);
+		-moz-transform: rotate($x);
+		-o-transform: rotate($x);
+		-webkit-transform: rotate($x);
+	}@else if $position == skew {
+		transform: skew($x,$y);
+		-ms-transform: skew($x,$y);
+		-moz-transform: skew($x,$y);
+		-o-transform: skew($x,$y);
+		-webkit-transform: skew($x,$y);
+	}@else if $position == scale {
+		transform: scale($x,$y);
+		-ms-transform: scale($x,$y);
+		-moz-transform: scale($x,$y);
+		-o-transform: scale($x,$y);
+		-webkit-transform: scale($x,$y);
+	}
+}
+$mobile-width-xs: 320px; 
+$mobile-width: 767px; 
+$tablet-width: 768px; 
+$tablet-width-pro: 1023px; 
+$tablet-width-pro-h: 1200px; 
+
+$destop:1366px;
+@mixin destop {@media only screen and (max-width: #{$destop}) {     
+	@content;  
+   } 
+  }
+@mixin tablet-width-pro-h {@media only screen and (max-width: #{$tablet-width-pro-h}) {     
+  @content;  
+ } 
+}
+@mixin tablet-pro { @media only screen and (max-width: #{$tablet-width-pro}) { 
+  	@content;   
+ } 
+}  
+@mixin tablet { @media only screen and (max-width: #{$tablet-width}){  
+     @content;   
+ } 
+}  
+@mixin mobile { @media only screen and (max-width: #{$mobile-width}) { 
+  	@content;   
+ } 
+} 
+@mixin mobile-xs { @media only screen and (max-width: #{$mobile-width-xs}) { 
+  	@content;   
+ } 
+}  
+
+
+@mixin flex-center(){
+   display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+@mixin icon-social($color,$bg,$width,$height ) {
+	color: $color;
+	width: $width;
+	height: $height;
+	line-height: $height;
+	background-color: $bg;
+	margin-right: 0.77vw;
+	display: inline-block;
+	-webkit-border-radius: $width;
+	        border-radius: $width;
+	text-align: center;
+}
+
+@mixin hr-circle ($width,$border,$size,$color){
+	width: $width;
+	height: $width;
+	-webkit-border-radius: 100%;
+	        border-radius: 100%;
+	@include add-border($size,$color,$border,solid);
+}
+

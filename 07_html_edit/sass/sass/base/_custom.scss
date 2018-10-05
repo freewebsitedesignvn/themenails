@@ -1,0 +1,132 @@
+.print {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.grouppromo {
+    .homeul {
+        list-style: none;
+        li {
+            font-size: 18pt;
+            margin-bottom: 20px;
+            padding-left: 35px;
+            font-weight: bold;
+            font-family: 'PT Sans Narrow', sans-serif;
+            color: #1c70b0;
+            background: url(../images/tick.png) 0px 4px no-repeat
+        }
+    }
+}
+
+.row {
+    margin: 0;
+}
+
+.groupfbye {
+    width: auto;
+}
+
+.main {
+    box-sizing: content-box;
+}
+
+.servicesimg img {
+    max-width: 224px;
+}
+
+.servicesimg .servicesimg2 {
+    max-width: 134px;
+}
+
+#egiftlibrary img {
+    width: 208px;
+}
+
+.homeservicesimg img {
+    width: 286px;
+}
+
+.aboutimg {
+    img {
+        width: 254px;
+    }
+    .aboutimg2 {
+        width: 154px
+    }
+    .aboutimg3 {
+        width: 169px;
+    }
+}
+
+#bback {
+    background: url(../images/slider/prev.png)0px 0px no-repeat;
+    &:hover {
+        background: url(../images/slider/prevhover.png)0px 0px no-repeat;
+    }
+}
+
+#bnext {
+    background: url(../images/slider/next.png)0px 0px no-repeat;
+    &:hover {
+        background: url(../images/slider/nexthover.png)0px 0px no-repeat;
+    }
+}
+
+#gallery img {
+    width: 277px;
+}
+.menu ul li .selected, .menu ul li:hover {
+    background: #d67742 url("../images/bg_menu.png") repeat scroll 0 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.grouphomeservices h2 {
+    color: #7a330b;
+    font-family: Oswald,sans-serif;
+    font-size: 40pt;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.hometitle {
+    color: #7a330b;
+    font-family: Courgette,cursive;
+    font-size: 36pt;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.aboutslogan {
+    clear: both;
+    color: #7a330b;
+    font-size: 25pt;
+    padding-top: 30px;
+}
+.footer_r a:hover, .welcome {
+    color: #d67742;
+}
+#subbar {
+    background: #d67742  url("../images/subbar.png") no-repeat scroll 0 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+    opacity: 1;
+    right: 0;
+    top: 35%;
+    width: 130px;
+    z-index: 99;
+}
+.more {
+    background: #d67742 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Playball,cursive;
+    font-size: 15pt;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
+    width: 120px;
+}

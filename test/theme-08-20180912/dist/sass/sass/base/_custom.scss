@@ -1,0 +1,76 @@
+            .print {
+                display: inline-block;
+                margin: 20px 0;
+            }
+            
+            .grouppromo {
+                .homeul {
+                    list-style: none;
+                    li {
+                        font-size: 18pt;
+                        margin-bottom: 20px;
+                        padding-left: 35px;
+                        font-weight: bold;
+                        font-family: 'PT Sans Narrow', sans-serif;
+                        color: #1c70b0;
+                        background: url(../images/tick.png) 0px 4px no-repeat
+                    }
+                }
+            }
+            
+            .row {
+                margin: 0;
+            }
+            
+            .groupfbye {
+                width: auto;
+            }
+            
+            .springfield_bt,
+            .luxury_bt {
+                box-sizing: content-box;
+            }
+            
+            .homeservices_img img {
+                width: 142px;
+            }
+            
+            .about_img img {
+                width: 180px;
+            }
+            
+            .img-card {
+                width: 250px;
+            }
+            
+            .servicesimg img {
+                width: 290px;
+            }
+            
+            .pedicure {
+                width: 652px;
+            }
+            
+            #gallery img {
+                width: 250px
+            }
+            
+            #sb-nav-previous {
+                background-image: url(../images/shadows/previous.png);
+            }
+            
+            #sb-nav-pause {
+                background-image: url(../images/shadows/pause.png);
+            }
+            
+            #sb-nav-play {
+                background-image: url(../images/shadows/play.png);
+            }
+            
+            #sb-nav-next {
+                background-image: url(../images/shadows/next.png);
+            }
+            
+            #sb-nav-close {
+                background-image: url(../images/shadows/close.png);
+            }

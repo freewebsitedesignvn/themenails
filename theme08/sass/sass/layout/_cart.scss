@@ -1,0 +1,30 @@
+
+$padding-cart-item:10px 65px 10px 0;
+$border-color-cart-item:rgba(0,0,0,.125);
+$right-cart-item__qty:25px;
+.cart-item{
+	position:relative;
+	padding:$padding-cart-item;
+	border-bottom:1px solid $border-color-cart-item;
+	&:last-child{
+		border:none;
+	}
+}
+.cart-item__qty{
+	position:absolute;
+	top:50%;
+	@include transform-center-y($x:0,$y:-50%);
+	right: $right-cart-item__qty;
+}
+
+
+
+
+// .minicart .minicart-dropdown{
+// 	left:-10px;
+// 	right:auto;
+// }
+// .minicart .minicart-dropdown:after, .minicart .minicart-dropdown:before{
+// 	left:15px;
+// 	right:auto;
+// }

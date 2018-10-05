@@ -1,0 +1,91 @@
+
+.main{
+    box-sizing: content-box;
+}
+.groupfbye{
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+#soundback{
+    box-sizing: content-box;
+}
+.grouphomeservices .row{
+    font-size: 11pt;
+    font-family: "Roboto",sans-serif;
+    border-bottom: none;
+}
+#gallery {
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+        padding-left:5px;
+        padding-right:5px;
+
+    }
+}
+img{
+    display: inline-block;
+}
+.servicesimg{
+    @include mobile(){
+        margin-bottom: 30px;
+    }
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    display: inline-block;
+}
+.servicesimg img{
+    max-width: 220px;
+}
+.servicesimg .servicesimg2{
+    max-width: 130px;
+}
+.homeservicesimg img{
+    max-width: 280px;
+}
+#egiftlibrary img{
+    max-width: 208px;
+}
+.content h2{
+    text-align: center;
+}
+#productcart, .grouppro{
+    text-align: center;
+}
+.contact_from{
+    text-align: center;
+}
+.contact_from_l{
+    width: auto;
+    float: none;
+}
+.contact_from_title{
+    margin-bottom: 20px;
+}
+#cardimg{
+    margin-top: 20px;
+}
+#egiftmessagegroup{
+    height: auto;
+    margin: auto;
+}
+#cardimg img{
+    width: 100%;
+}
+.menu ul li .selected, .menu ul li:hover {
+    background: #4da7c2 url("../images/bg_menu.png") no-repeat scroll center -40px;
+    color: #fff;
+    }
+.grouphomeservices h2 {
+    color: #3d99b5;
+    font-size: 26pt;
+    font-weight: 400;
+    margin-bottom: 10px;}
+.groupfooter {
+    background: url("../images/bg_footer2.png") repeat scroll 0 0;
+    margin-top: -10px;
+    overflow: hidden;
+}

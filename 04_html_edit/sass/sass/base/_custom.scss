@@ -1,0 +1,63 @@
+.print {
+    display: inline-block;
+    margin: 20px 0;
+}
+.grouppromo{
+    .homeul{
+        list-style: none;
+        li{
+            font-size: 18pt;
+            margin-bottom: 20px;
+            padding-left: 35px;
+            font-weight: bold;
+            font-family: 'PT Sans Narrow', sans-serif;
+            color: #1c70b0;
+            background: url(../images/tick.png) 0px 4px no-repeat
+        }
+    }
+}
+.row{
+    margin: 0;
+}
+.groupfbye{
+    width: auto;
+}
+.social a{
+    margin-left:2px;
+}
+#gallery img{
+    width: 190px;
+}
+.groupcontact a{
+    margin-left: 3px;
+}
+#egiftlibrary img{
+    width: 208px;
+}
+.groupbanner {
+    border: 8px solid #5c3005;
+    position: relative;
+}
+.banner_txt {
+    background-color: rgba(109, 54, 1, 0.5);
+    bottom: 600px;
+    font-size: 25pt;
+    padding: 10px 0;
+    text-align: center;
+}
+body {
+    color: #fff !important;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+.groupcontent_pages {
+    background: #482401 none repeat scroll 0 0;
+    border: 10px solid #fff;
+    height: 585px;
+    overflow-y: auto;
+    width: 500px;
+}
+.content h2 {
+    color: #fff;
+    font-size: 20pt;
+}

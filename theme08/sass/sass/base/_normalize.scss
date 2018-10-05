@@ -1,0 +1,61 @@
+
+.hidden{
+	display: none!important;
+	&__xs{
+		@include mobile() {
+			display: none!important;
+		}
+	}
+	&__sm{
+		@include tablet() {
+			display: none!important;
+		}
+	}
+	&__md{
+		@include tablet-pro() {
+			display: none!important;
+		}
+	}
+	&__lg{
+		@include tablet-width-pro-h() {
+			display: none!important;
+		}
+	}
+}
+.show{
+	&__xs{
+		@include mobile() {
+			display: block!important;
+		}
+	}
+	&__sm{
+		@include tablet() {
+			display: block!important;
+		}
+	}
+	&__md{
+		@include tablet-pro() {
+			display: block!important;
+		}
+	}
+	&__lg{
+		@include tablet-width-pro-h() {
+			display: block!important;
+		}
+	}
+}
+@for $i from 1 through 5 {
+	@each $m,$M in ((t:top,b:bottom,l:left,r:right))
+	{
+		.m#{$m}-#{$i}{
+			margin-#{$M} : $i*1rem;
+		}
+	}
+	@each $p,$P in ((t:top,b:bottom,l:left,r:right)){
+		.p#{$p}-#{$i}{
+			padding-#{$P} : $i*1rem;
+		}
+	}
+}
+
+

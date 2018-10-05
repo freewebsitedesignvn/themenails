@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<style type="text/css">
+		div#wrap-noti{
+			position: fixed;
+	    width: 100%;
+	    background: rgba(220, 220, 220, 0.8);
+	    height: 100%;
+	    z-index: 99999999;
+	    top: 0;
+    	text-align: center;
+		}
+		#closenoti {
+		    text-align: right;
+		    cursor: pointer;
+		    margin-bottom: 5px;
+		}
+	</style>
+		<!-- Chức năng này sẽ hiện full màn hình thông báo, khi đó người dùng không thao tác được gì trên website, trừ khi click vào nút close mới thao tác bình thường -->
+	<div id="wrap-noti">
+		<div class="noti-content">
+
+			<button id="close-noti">Close</button><br>
+			<img src="https://cdn.dataeglobal.com/images/b2eb7349035754953b57a32e2841bda5/website/service/1.jpg" alt="">
+		</div>
+	</div>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$("button#close-noti").click(function(event) {
+				$("div#wrap-noti").hide('slow'); //hide: slow/fast
+
+			});
+		});
+	</script>
+	main content
+</body>
+</html>

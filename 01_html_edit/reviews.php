@@ -12,7 +12,7 @@
 
                     <div id="reviewsgroup"></div>
 
-                    <script type="text/javascript">
+                    <!-- <script type="text/javascript">
                         $(document).ready(function () {
                             fLoadReview();
                             $("#moreBtn").click(function () {
@@ -45,7 +45,7 @@
                                     });
                             }
                         });
-                    </script>    
+                    </script>  -->   
                 
                 <div class="box-viewmore">
                     <input type="button" id="moreBtn" class="viewmore" value="More">
